@@ -1,13 +1,298 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DMX PAR Light Controller</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB to DMX Controller - ควบคุมไฟพาร์ได้ง่าย สำหรับมือใหม่</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🎭 DMX Light Controller</h1>
+            </div>
+            <nav class="nav">
+                <a href="#product">สินค้า</a>
+                <a href="#features">คุณสมบัติ</a>
+                <a href="#downloads">ดาวน์โหลด</a>
+                <a href="#contact">ติดต่อ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">USB to DMX Controller</h2>
+                <p class="hero-subtitle">ตัวแปลง USB to DMX พร้อมโปรแกรมควบคุมไฟพาร์</p>
+                <p class="hero-description">
+                    ออกแบบมาเพื่อมือใหม่ที่พึ่งหัดเล่นไฟพาร์ ใช้งานง่าย ไม่ซับซ้อน<br>
+                    พร้อมโปรแกรมที่เขียนขึ้นมาเองโดยเฉพาะ
+                </p>
+                <div class="hero-buttons">
+                    <a href="#downloads" class="btn btn-primary">ดาวน์โหลดโปรแกรม</a>
+                    <a href="#product" class="btn btn-secondary">ดูรายละเอียด</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/usb-dmx-device.jpg" alt="USB to DMX Device">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="product-section">
+        <div class="container">
+            <h2 class="section-title">รายละเอียดสินค้า</h2>
+            <div class="product-grid">
+                <div class="product-image-card">
+                    <img src="assets/usb-dmx-device.jpg" alt="USB to DMX Converter">
+                    <p class="image-caption">ตัวแปลง USB to DMX</p>
+                </div>
+                <div class="product-info-card">
+                    <h3>USB to DMX Converter</h3>
+                    <p>ตัวแปลงสัญญาณ USB เป็น DMX512 สำหรับควบคุมไฟพาร์ LED ผ่านคอมพิวเตอร์</p>
+                    <ul class="product-features">
+                        <li>✅ รองรับ DMX512 มาตรฐาน</li>
+                        <li>✅ เชื่อมต่อผ่าน USB 2.0</li>
+                        <li>✅ ใช้งานกับไฟพาร์ได้หลายดวง</li>
+                        <li>✅ ติดตั้งง่าย ใช้งานสะดวก</li>
+                        <li>✅ รองรับ Windows 8/10/11</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product-grid reverse">
+                <div class="product-info-card">
+                    <h3>DMX Light Controller Software</h3>
+                    <p>โปรแกรมควบคุมไฟพาร์ที่เขียนขึ้นมาเองโดยเฉพาะสำหรับมือใหม่</p>
+                    <ul class="product-features">
+                        <li>🎨 ควบคุมสี RGB ได้อย่างอิสระ</li>
+                        <li>✨ เอฟเฟกต์แสงสำเร็จรูป 10+ แบบ</li>
+                        <li>🎚️ ปรับความสว่างได้</li>
+                        <li>⚙️ ตั้งค่า Channel Group (A/B)</li>
+                        <li>💻 หน้าจอใช้งานง่าย เข้าใจได้ทันที</li>
+                    </ul>
+                </div>
+                <div class="product-image-card">
+                    <img src="assets/par-lights.jpg" alt="DMX PAR Lights">
+                    <p class="image-caption">ไฟพาร์ LED DMX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">คุณสมบัติเด่น</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>ใช้งานง่าย</h3>
+                    <p>ออกแบบมาสำหรับมือใหม่โดยเฉพาะ ไม่ต้องมีความรู้เชิงลึก สามารถเริ่มใช้งานได้ทันที</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>เอฟเฟกต์หลากหลาย</h3>
+                    <p>มีเอฟเฟกต์แสงสำเร็จรูปให้เลือกมากมาย เช่น Color Chase, Rainbow, Strobe, Fire, Party และอื่นๆ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>ควบคุมหลายดวง</h3>
+                    <p>รองรับการควบคุมไฟพาร์หลายดวงพร้อมกัน ด้วยการตั้งค่า Start Address ที่เพิ่มทีละ 8 Channel</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>ปรับแต่งได้</h3>
+                    <p>สามารถปรับสี RGB ด้วยตัวเอง และตั้งค่า Channel Group (A/B) ให้เข้ากับไฟรุ่นต่างๆ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>ฟรี ไม่มีค่าใช้จ่าย</h3>
+                    <p>โปรแกรมและไดรเวอร์ดาวน์โหลดได้ฟรี ไม่มีค่าใช้จ่ายเพิ่มเติม</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>คู่มือครบถ้วน</h3>
+                    <p>มีคู่มือการใช้งานภาษาไทยที่อธิบายทุกขั้นตอนอย่างละเอียด</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="howto-section">
+        <div class="container">
+            <h2 class="section-title">วิธีการใช้งาน</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>ติดตั้งไดรเวอร์</h3>
+                    <p>ดาวน์โหลดและติดตั้งไดรเวอร์ UTD-10 USB-A สำหรับ Windows 8/10/11</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>เชื่อมต่ออุปกรณ์</h3>
+                    <p>เสียบ USB to DMX เข้ากับคอมพิวเตอร์ และต่อสาย DMX ไปยังไฟพาร์</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>ตั้งค่า Address</h3>
+                    <p>กำหนด Start Address ให้กับไฟแต่ละดวง (1, 9, 17, 25...)</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>เปิดโปรแกรม</h3>
+                    <p>เปิดโปรแกรม DMX Light Controller และเลือก COM Port เพื่อเชื่อมต่อ</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <h3>เลือกเอฟเฟกต์</h3>
+                    <p>เลือกเอฟเฟกต์แสงที่ต้องการ หรือควบคุมสี RGB ด้วยตัวเอง</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <h3>เริ่มใช้งาน</h3>
+                    <p>เพลิดเพลินกับการควบคุมแสงสีได้ตามใจชอบ!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="downloads-section">
+        <div class="container">
+            <h2 class="section-title">ดาวน์โหลด</h2>
+            <div class="downloads-grid">
+                <div class="download-card">
+                    <div class="download-icon">💻</div>
+                    <h3>โปรแกรม DMX Light Controller</h3>
+                    <p>โปรแกรมควบคุมไฟพาร์ DMX เวอร์ชัน DEMO 1.0</p>
+                    <a href="https://url-lime.vercel.app/api/zJ" target="_blank" class="btn btn-download">
+                        ดาวน์โหลดโปรแกรม
+                    </a>
+                    <div class="qr-code-container">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://url-lime.vercel.app/api/zJ" alt="QR Code - โปรแกรม">
+                        <p class="qr-label">สแกน QR Code</p>
+                    </div>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">🔌</div>
+                    <h3>ไดรเวอร์ UTD-10 USB-A</h3>
+                    <p>ไดรเวอร์สำหรับ Windows 8/10/11 (USB-DMX)</p>
+                    <a href="https://ftdichip.com/drivers/vcp-drivers/" target="_blank" class="btn btn-download">
+                        ดาวน์โหลดไดรเวอร์
+                    </a>
+                    <div class="qr-code-container">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://ftdichip.com/drivers/vcp-drivers/" alt="QR Code - ไดรเวอร์">
+                        <p class="qr-label">สแกน QR Code</p>
+                    </div>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">📖</div>
+                    <h3>คู่มือการใช้งาน</h3>
+                    <p>คู่มือการใช้งานฉบับเต็ม (PDF)</p>
+                    <a href="assets/DMXLightController.pdf" target="_blank" class="btn btn-download">
+                        ดาวน์โหลดคู่มือ
+                    </a>
+                    <div class="qr-code-container">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=assets/DMXLightController.pdf" alt="QR Code - คู่มือ">
+                        <p class="qr-label">สแกน QR Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="specs-section">
+        <div class="container">
+            <h2 class="section-title">ข้อมูลทางเทคนิค</h2>
+            <div class="specs-content">
+                <div class="specs-column">
+                    <h3>ตัวแปลง USB to DMX</h3>
+                    <table class="specs-table">
+                        <tr>
+                            <td>มาตรฐาน</td>
+                            <td>DMX512</td>
+                        </tr>
+                        <tr>
+                            <td>การเชื่อมต่อ</td>
+                            <td>USB 2.0</td>
+                        </tr>
+                        <tr>
+                            <td>ช่องสัญญาณ</td>
+                            <td>512 Channels</td>
+                        </tr>
+                        <tr>
+                            <td>ระบบปฏิบัติการ</td>
+                            <td>Windows 8/10/11</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="specs-column">
+                    <h3>โปรแกรม DMX Light Controller</h3>
+                    <table class="specs-table">
+                        <tr>
+                            <td>เวอร์ชัน</td>
+                            <td>DEMO 1.0</td>
+                        </tr>
+                        <tr>
+                            <td>Channel ต่อไฟ</td>
+                            <td>8 Channels</td>
+                        </tr>
+                        <tr>
+                            <td>เอฟเฟกต์</td>
+                            <td>10+ แบบ</td>
+                        </tr>
+                        <tr>
+                            <td>ควบคุม RGB</td>
+                            <td>ได้ (Manual Control)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">ติดต่อสอบถาม</h2>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <div class="contact-icon">👥</div>
+                    <h3>กลุ่ม Facebook</h3>
+                    <p>QLC+, USB to RS485 (DMX LIGHTING ประเทศไทย)</p>
+                    <a href="https://url-lime.vercel.app/api/1a" target="_blank" class="btn btn-contact">
+                        เข้าร่วมกลุ่ม
+                    </a>
+                    <div class="qr-code-container">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://url-lime.vercel.app/api/1a" alt="QR Code - Facebook Group">
+                        <p class="qr-label">สแกน QR Code</p>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-description">
+                สามารถสอบถามการใช้งาน แชร์ประสบการณ์ และขอคำแนะนำจากสมาชิกในกลุ่มได้
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 DMX Light Controller. ออกแบบและพัฒนาโดยทีมงาน</p>
+            <p>สำหรับมือใหม่ที่พึ่งหัดเล่นไฟพาร์</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
